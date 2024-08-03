@@ -12,7 +12,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://real-time-chat-app-backend-a5up.onrender.com',
   credentials: true
 }));
 app.use(morgan("dev"));
