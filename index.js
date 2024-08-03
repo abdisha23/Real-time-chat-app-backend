@@ -12,7 +12,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-  origin: 'https://real-time-chat-app-backend-a5up.onrender.com',
+  origin: 'https://real-time-chat-app-frontend-5oxa.onrender.com',
   credentials: true
 }));
 app.use(morgan("dev"));
